@@ -186,13 +186,12 @@ void detect_motion() {
 
     ROS_INFO("detecting motion");
 
-    /*for (int loop=0; loop<nb_beams; loop++ )//loop over all the hits
-        if the difference between ( the background and the current value ) is higher than "detection_threshold"
-        then
-             dynamic[loop] = 1;//the current hit is dynamic
-        else
-            dynamic[loop] = 0;//else its static
-    */
+    // for (int loop=0; loop<nb_beams; loop++ )//loop over all the hits
+    //     if the difference between ( the background and the current value ) is higher than "detection_threshold"
+    //     then
+    //          dynamic[loop] = 1;//the current hit is dynamic
+    //     else
+    //         dynamic[loop] = 0;//else its static
     ROS_INFO("motion detected");
 
 }//detect_motion
@@ -226,16 +225,18 @@ void perform_clustering() {
     colors[nb_pts].a = 1.0;
     nb_pts++;
 
-    /*for( int loop=1; loop<nb_beams; loop++ )//loop over all the hits
-        if distance between (the previous hit and the current one) is lower than "cluster_threshold"
-        then //the current hit belongs to the current cluster
-        ...
+    for( int loop=1; loop<nb_beams; loop++ )//loop over all the hits
+        if (distancePoints(current_scan[loop],current_scan[loop-1]))
+        {
+            //the current hit belongs to the current cluster
+
+        }            
         else {//the current hit doesnt belong to the same hit
-              1/ we end the current cluster, so we update:
-              - cluster-end to store the last hit of the current cluster
-              - cluster_dynamic to store the percentage of hits of the current cluster that are dynamic
-              - cluster_size to store the size of the cluster ie, the distance between the first hit of the cluster and the last one
-              - cluster_middle to store the middle of the cluster
+            //   1/ we end the current cluster, so we update:
+            //   - cluster-end to store the last hit of the current cluster
+            //   - cluster_dynamic to store the percentage of hits of the current cluster that are dynamic
+            //   - cluster_size to store the size of the cluster ie, the distance between the first hit of the cluster and the last one
+            //   - cluster_middle to store the middle of the cluster
 
             //graphical display of the end of the current cluster in red
             display[nb_pts].x = current_scan[cluster_end[nb_cluster]].x;
@@ -251,7 +252,7 @@ void perform_clustering() {
             //textual display
             ROS_INFO("cluster[%i]: [%i](%f, %f) -> [%i](%f, %f), size: %f, dynamic: %i", nb_cluster, cluster_start[nb_cluster], current_scan[cluster_start[nb_cluster]].x, current_scan[cluster_start[nb_cluster]].y, cluster_end[nb_cluster], current_scan[cluster_end[nb_cluster]].x, current_scan[cluster_end[nb_cluster]].y, cluster_size[nb_cluster], cluster_dynamic[nb_cluster]);
 
-            2/ we starta new cluster with the current hit
+            // 2/ we starta new cluster with the current hit
             nb_dynamic = 0;// to count the number of hits of the current cluster that are dynamic
             nb_cluster++;
             cluster_start[nb_cluster] = loop;
@@ -270,7 +271,7 @@ void perform_clustering() {
             colors[nb_pts].a = 1.0;
             nb_pts++;
 
-        }*/
+        }
 
     //Dont forget to update the different information for the last cluster
     //...

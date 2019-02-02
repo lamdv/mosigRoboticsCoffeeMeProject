@@ -1,8 +1,8 @@
-# Install script for directory: /home/hlong205/catkin_ws/src/beginner_tutorials
+# Install script for directory: /home/vlamd/Git/RoboticsLab1/src/beginner_tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hlong205/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/vlamd/Git/RoboticsLab1/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hlong205/catkin_ws/build/beginner_tutorials/catkin_generated/installspace/beginner_tutorials.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlamd/Git/RoboticsLab1/build/beginner_tutorials/catkin_generated/installspace/beginner_tutorials.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials/cmake" TYPE FILE FILES
-    "/home/hlong205/catkin_ws/build/beginner_tutorials/catkin_generated/installspace/beginner_tutorialsConfig.cmake"
-    "/home/hlong205/catkin_ws/build/beginner_tutorials/catkin_generated/installspace/beginner_tutorialsConfig-version.cmake"
+    "/home/vlamd/Git/RoboticsLab1/build/beginner_tutorials/catkin_generated/installspace/beginner_tutorialsConfig.cmake"
+    "/home/vlamd/Git/RoboticsLab1/build/beginner_tutorials/catkin_generated/installspace/beginner_tutorialsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials" TYPE FILE FILES "/home/hlong205/catkin_ws/src/beginner_tutorials/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/beginner_tutorials" TYPE FILE FILES "/home/vlamd/Git/RoboticsLab1/src/beginner_tutorials/package.xml")
 endif()
 

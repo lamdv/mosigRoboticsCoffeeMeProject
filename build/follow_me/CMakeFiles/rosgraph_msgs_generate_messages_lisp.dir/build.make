@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hlong205/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hlong205/catkin_ws/build
+CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_ms
 .PHONY : follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/hlong205/catkin_ws/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/hlong205/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlong205/catkin_ws/src /home/hlong205/catkin_ws/src/follow_me /home/hlong205/catkin_ws/build /home/hlong205/catkin_ws/build/follow_me /home/hlong205/catkin_ws/build/follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/follow_me /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/follow_me /home/vlamd/Git/RoboticsLab1/build/follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : follow_me/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

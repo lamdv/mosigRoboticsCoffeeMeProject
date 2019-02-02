@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hlong205/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hlong205/catkin_ws/build
+CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
 
 # Include any dependencies generated for this target.
 include follow_me/CMakeFiles/obstacle_detection_node.dir/depend.make
@@ -58,17 +58,17 @@ include follow_me/CMakeFiles/obstacle_detection_node.dir/progress.make
 include follow_me/CMakeFiles/obstacle_detection_node.dir/flags.make
 
 follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o: follow_me/CMakeFiles/obstacle_detection_node.dir/flags.make
-follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o: /home/hlong205/catkin_ws/src/follow_me/src/obstacle_detection_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hlong205/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o"
-	cd /home/hlong205/catkin_ws/build/follow_me && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o -c /home/hlong205/catkin_ws/src/follow_me/src/obstacle_detection_node.cpp
+follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o: /home/vlamd/Git/RoboticsLab1/src/follow_me/src/obstacle_detection_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vlamd/Git/RoboticsLab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o"
+	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o -c /home/vlamd/Git/RoboticsLab1/src/follow_me/src/obstacle_detection_node.cpp
 
 follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.i"
-	cd /home/hlong205/catkin_ws/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hlong205/catkin_ws/src/follow_me/src/obstacle_detection_node.cpp > CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.i
+	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vlamd/Git/RoboticsLab1/src/follow_me/src/obstacle_detection_node.cpp > CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.i
 
 follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.s"
-	cd /home/hlong205/catkin_ws/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hlong205/catkin_ws/src/follow_me/src/obstacle_detection_node.cpp -o CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.s
+	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vlamd/Git/RoboticsLab1/src/follow_me/src/obstacle_detection_node.cpp -o CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.s
 
 follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o.requires:
 
@@ -88,38 +88,38 @@ obstacle_detection_node_OBJECTS = \
 # External object files for target obstacle_detection_node
 obstacle_detection_node_EXTERNAL_OBJECTS =
 
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: follow_me/CMakeFiles/obstacle_detection_node.dir/build.make
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libtf.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libtf2_ros.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libactionlib.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libmessage_filters.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libroscpp.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libtf2.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librosconsole.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librostime.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node: follow_me/CMakeFiles/obstacle_detection_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hlong205/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node"
-	cd /home/hlong205/catkin_ws/build/follow_me && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/obstacle_detection_node.dir/link.txt --verbose=$(VERBOSE)
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: follow_me/CMakeFiles/obstacle_detection_node.dir/build.make
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libtf.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libtf2_ros.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libactionlib.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libmessage_filters.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libroscpp.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libtf2.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librosconsole.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/librostime.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node: follow_me/CMakeFiles/obstacle_detection_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vlamd/Git/RoboticsLab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node"
+	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/obstacle_detection_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-follow_me/CMakeFiles/obstacle_detection_node.dir/build: /home/hlong205/catkin_ws/devel/lib/follow_me/obstacle_detection_node
+follow_me/CMakeFiles/obstacle_detection_node.dir/build: /home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/obstacle_detection_node
 
 .PHONY : follow_me/CMakeFiles/obstacle_detection_node.dir/build
 
@@ -128,10 +128,10 @@ follow_me/CMakeFiles/obstacle_detection_node.dir/requires: follow_me/CMakeFiles/
 .PHONY : follow_me/CMakeFiles/obstacle_detection_node.dir/requires
 
 follow_me/CMakeFiles/obstacle_detection_node.dir/clean:
-	cd /home/hlong205/catkin_ws/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/obstacle_detection_node.dir/cmake_clean.cmake
+	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/obstacle_detection_node.dir/cmake_clean.cmake
 .PHONY : follow_me/CMakeFiles/obstacle_detection_node.dir/clean
 
 follow_me/CMakeFiles/obstacle_detection_node.dir/depend:
-	cd /home/hlong205/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hlong205/catkin_ws/src /home/hlong205/catkin_ws/src/follow_me /home/hlong205/catkin_ws/build /home/hlong205/catkin_ws/build/follow_me /home/hlong205/catkin_ws/build/follow_me/CMakeFiles/obstacle_detection_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/follow_me /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/follow_me /home/vlamd/Git/RoboticsLab1/build/follow_me/CMakeFiles/obstacle_detection_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : follow_me/CMakeFiles/obstacle_detection_node.dir/depend
 

@@ -1,8 +1,8 @@
-prefix=/home/hlong205/catkin_ws/devel
+prefix=/home/vlamd/Git/RoboticsLab1/devel
 
 Name: follow_me
 Description: Description of follow_me
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/hlong205/catkin_ws/devel/lib 
+Libs: -L/home/vlamd/Git/RoboticsLab1/devel/lib 
 Requires: 

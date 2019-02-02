@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/hlong205/catkin_ws/src/follow_me/src/moving_person_detector_node.cpp
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/moving_person_detector_node.cpp
 ros/ros.h
-/home/hlong205/catkin_ws/src/follow_me/src/ros/ros.h
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/ros/ros.h
 ros/time.h
-/home/hlong205/catkin_ws/src/follow_me/src/ros/time.h
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/ros/time.h
 sensor_msgs/LaserScan.h
-/home/hlong205/catkin_ws/src/follow_me/src/sensor_msgs/LaserScan.h
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/sensor_msgs/LaserScan.h
 visualization_msgs/Marker.h
-/home/hlong205/catkin_ws/src/follow_me/src/visualization_msgs/Marker.h
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/visualization_msgs/Marker.h
 geometry_msgs/Point.h
-/home/hlong205/catkin_ws/src/follow_me/src/geometry_msgs/Point.h
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/geometry_msgs/Point.h
 std_msgs/ColorRGBA.h
-/home/hlong205/catkin_ws/src/follow_me/src/std_msgs/ColorRGBA.h
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/std_msgs/ColorRGBA.h
 cmath
 -
 std_msgs/Bool.h
-/home/hlong205/catkin_ws/src/follow_me/src/std_msgs/Bool.h
+/home/vlamd/Git/RoboticsLab1/src/follow_me/src/std_msgs/Bool.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string
