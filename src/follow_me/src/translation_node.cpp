@@ -113,6 +113,7 @@ void update() {
         float translation_done = distancePoints( start_position, current_position );
         float error = translation_to_do - translation_done;
 
+
         // the error is the minimum between the difference between /translation_to_do and /translation_done and the distance with the closest obstacle
         if ( fabs(error) > closest_obstacle.x )
             error = closest_obstacle.x;
@@ -127,17 +128,20 @@ void update() {
         if ( cond_translation ) {
             //TO COMPLETE
             //Implementation of a PID controller for translation_to_do;
-            //rotation_speed = kp*error + ki * error + kp * error_derivation;
+            // rotation_speed = kp*error + ki * error + kp * error_derivation;
 
             float error_derivation;//To complete
-            //ROS_INFO("error_derivaion: %f", error_derivation);
+            error_derivation = abs(error - error_previous);
+            ROS_INFO("error_derivaion: %f", error_derivation);
 
             //error_integral = ...;//To complete
-            //ROS_INFO("error_integral: %f", error_integral);
+            ROS_INFO("error_integral: %f", error_integral);
 
             //control of translation with a PID controller
             translation_speed = kp * error + ki * error_integral + kd * error_derivation;
             ROS_INFO("(translation_node) translation_done: %f, translation_to_do: %f -> translation_speed: %f", translation_done, translation_to_do, translation_speed);
+            error_previous = error;
+            error_integral += error;
         }
         else {
             ROS_INFO("(translation_node) translation_done: %f, translation_to_do: %f -> translation_speed: %f", translation_done, translation_to_do, translation_speed);
@@ -179,7 +183,6 @@ void update() {
         ROS_INFO("obstacle_detection_node is ok");
         display_obstacle = false;
     }
-
 }// update
 
 //CALLBACKS
