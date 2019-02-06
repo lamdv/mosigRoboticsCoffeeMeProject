@@ -7,3 +7,4 @@
 subdirs("gtest")
 subdirs("follow_me")
 subdirs("beginner_tutorials")
+subdirs("teleoperation")

@@ -124,6 +124,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/vlamd/Git/RoboticsLab1/build/gtest/cmake_install.cmake")
   include("/home/vlamd/Git/RoboticsLab1/build/follow_me/cmake_install.cmake")
   include("/home/vlamd/Git/RoboticsLab1/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/vlamd/Git/RoboticsLab1/build/teleoperation/cmake_install.cmake")
 
 endif()
 
