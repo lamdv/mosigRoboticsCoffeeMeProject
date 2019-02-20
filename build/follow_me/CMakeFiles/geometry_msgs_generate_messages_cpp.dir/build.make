@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
+CMAKE_SOURCE_DIR = /home/sarayev/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
+CMAKE_BINARY_DIR = /home/sarayev/catkin_ws/build
 
 # Utility rule file for geometry_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build: geometry_msg
 .PHONY : follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 
 follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean:
-	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/sarayev/catkin_ws/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend:
-	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/follow_me /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/follow_me /home/vlamd/Git/RoboticsLab1/build/follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarayev/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarayev/catkin_ws/src /home/sarayev/catkin_ws/src/follow_me /home/sarayev/catkin_ws/build /home/sarayev/catkin_ws/build/follow_me /home/sarayev/catkin_ws/build/follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : follow_me/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/depend
 

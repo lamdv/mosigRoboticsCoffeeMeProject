@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
+CMAKE_SOURCE_DIR = /home/sarayev/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
+CMAKE_BINARY_DIR = /home/sarayev/catkin_ws/build
 
 # Utility rule file for nav_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build: nav_msgs_g
 .PHONY : teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
 
 teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/vlamd/Git/RoboticsLab1/build/teleoperation && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/sarayev/catkin_ws/build/teleoperation && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean
 
 teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/teleoperation /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/teleoperation /home/vlamd/Git/RoboticsLab1/build/teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarayev/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarayev/catkin_ws/src /home/sarayev/catkin_ws/src/teleoperation /home/sarayev/catkin_ws/build /home/sarayev/catkin_ws/build/teleoperation /home/sarayev/catkin_ws/build/teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : teleoperation/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend
 

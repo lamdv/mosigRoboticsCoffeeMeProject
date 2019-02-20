@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = "/home/vlamd/Git/RoboticsLab1/src"
+source_root_dir = "/home/sarayev/catkin_ws/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/opt/ros/melodic".split(';') if "/opt/ros/melodic" != "" else []
+underlay_workspaces = "/home/sarayev/catkin_ws/devel;/opt/ros/melodic".split(';') if "/home/sarayev/catkin_ws/devel;/opt/ros/melodic" != "" else []

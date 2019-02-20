@@ -43,25 +43,25 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
+CMAKE_SOURCE_DIR = /home/sarayev/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
+CMAKE_BINARY_DIR = /home/sarayev/catkin_ws/build
 
 # Utility rule file for teleoperation_generate_messages_eus.
 
 # Include the progress variables for this target.
 include teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/progress.make
 
-teleoperation/CMakeFiles/teleoperation_generate_messages_eus: /home/vlamd/Git/RoboticsLab1/devel/share/roseus/ros/teleoperation/manifest.l
+teleoperation/CMakeFiles/teleoperation_generate_messages_eus: /home/sarayev/catkin_ws/devel/share/roseus/ros/teleoperation/manifest.l
 
 
-/home/vlamd/Git/RoboticsLab1/devel/share/roseus/ros/teleoperation/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vlamd/Git/RoboticsLab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for teleoperation"
-	cd /home/vlamd/Git/RoboticsLab1/build/teleoperation && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/vlamd/Git/RoboticsLab1/devel/share/roseus/ros/teleoperation teleoperation std_msgs nav_msgs geometry_msgs
+/home/sarayev/catkin_ws/devel/share/roseus/ros/teleoperation/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sarayev/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for teleoperation"
+	cd /home/sarayev/catkin_ws/build/teleoperation && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/sarayev/catkin_ws/devel/share/roseus/ros/teleoperation teleoperation std_msgs nav_msgs geometry_msgs
 
 teleoperation_generate_messages_eus: teleoperation/CMakeFiles/teleoperation_generate_messages_eus
-teleoperation_generate_messages_eus: /home/vlamd/Git/RoboticsLab1/devel/share/roseus/ros/teleoperation/manifest.l
+teleoperation_generate_messages_eus: /home/sarayev/catkin_ws/devel/share/roseus/ros/teleoperation/manifest.l
 teleoperation_generate_messages_eus: teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/build.make
 
 .PHONY : teleoperation_generate_messages_eus
@@ -72,10 +72,10 @@ teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/build: teleoper
 .PHONY : teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/build
 
 teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/clean:
-	cd /home/vlamd/Git/RoboticsLab1/build/teleoperation && $(CMAKE_COMMAND) -P CMakeFiles/teleoperation_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/sarayev/catkin_ws/build/teleoperation && $(CMAKE_COMMAND) -P CMakeFiles/teleoperation_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/clean
 
 teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/depend:
-	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/teleoperation /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/teleoperation /home/vlamd/Git/RoboticsLab1/build/teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarayev/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarayev/catkin_ws/src /home/sarayev/catkin_ws/src/teleoperation /home/sarayev/catkin_ws/build /home/sarayev/catkin_ws/build/teleoperation /home/sarayev/catkin_ws/build/teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : teleoperation/CMakeFiles/teleoperation_generate_messages_eus.dir/depend
 

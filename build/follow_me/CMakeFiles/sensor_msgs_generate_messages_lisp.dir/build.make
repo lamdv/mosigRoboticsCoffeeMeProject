@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
+CMAKE_SOURCE_DIR = /home/sarayev/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
+CMAKE_BINARY_DIR = /home/sarayev/catkin_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build: sensor_msgs_g
 .PHONY : follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
 
 follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
-	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/sarayev/catkin_ws/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend:
-	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/follow_me /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/follow_me /home/vlamd/Git/RoboticsLab1/build/follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarayev/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarayev/catkin_ws/src /home/sarayev/catkin_ws/src/follow_me /home/sarayev/catkin_ws/build /home/sarayev/catkin_ws/build/follow_me /home/sarayev/catkin_ws/build/follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : follow_me/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 

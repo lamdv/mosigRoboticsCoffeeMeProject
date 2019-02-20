@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
+CMAKE_SOURCE_DIR = /home/sarayev/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
+CMAKE_BINARY_DIR = /home/sarayev/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include follow_me/CMakeFiles/moving_person_detector_node.dir/depend.make
@@ -58,17 +58,17 @@ include follow_me/CMakeFiles/moving_person_detector_node.dir/progress.make
 include follow_me/CMakeFiles/moving_person_detector_node.dir/flags.make
 
 follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o: follow_me/CMakeFiles/moving_person_detector_node.dir/flags.make
-follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o: /home/vlamd/Git/RoboticsLab1/src/follow_me/src/moving_person_detector_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vlamd/Git/RoboticsLab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o"
-	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o -c /home/vlamd/Git/RoboticsLab1/src/follow_me/src/moving_person_detector_node.cpp
+follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o: /home/sarayev/catkin_ws/src/follow_me/src/moving_person_detector_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sarayev/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o"
+	cd /home/sarayev/catkin_ws/build/follow_me && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o -c /home/sarayev/catkin_ws/src/follow_me/src/moving_person_detector_node.cpp
 
 follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.i"
-	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vlamd/Git/RoboticsLab1/src/follow_me/src/moving_person_detector_node.cpp > CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.i
+	cd /home/sarayev/catkin_ws/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sarayev/catkin_ws/src/follow_me/src/moving_person_detector_node.cpp > CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.i
 
 follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.s"
-	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vlamd/Git/RoboticsLab1/src/follow_me/src/moving_person_detector_node.cpp -o CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.s
+	cd /home/sarayev/catkin_ws/build/follow_me && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sarayev/catkin_ws/src/follow_me/src/moving_person_detector_node.cpp -o CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.s
 
 follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o.requires:
 
@@ -88,38 +88,38 @@ moving_person_detector_node_OBJECTS = \
 # External object files for target moving_person_detector_node
 moving_person_detector_node_EXTERNAL_OBJECTS =
 
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: follow_me/CMakeFiles/moving_person_detector_node.dir/build.make
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libtf.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libtf2_ros.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libactionlib.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libmessage_filters.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libroscpp.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libtf2.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librosconsole.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librostime.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libcpp_common.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node: follow_me/CMakeFiles/moving_person_detector_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vlamd/Git/RoboticsLab1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node"
-	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moving_person_detector_node.dir/link.txt --verbose=$(VERBOSE)
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: follow_me/CMakeFiles/moving_person_detector_node.dir/src/moving_person_detector_node.cpp.o
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: follow_me/CMakeFiles/moving_person_detector_node.dir/build.make
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libtf.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libtf2_ros.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libactionlib.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libmessage_filters.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libroscpp.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libtf2.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librosconsole.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/librostime.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /opt/ros/melodic/lib/libcpp_common.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node: follow_me/CMakeFiles/moving_person_detector_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sarayev/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node"
+	cd /home/sarayev/catkin_ws/build/follow_me && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/moving_person_detector_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-follow_me/CMakeFiles/moving_person_detector_node.dir/build: /home/vlamd/Git/RoboticsLab1/devel/lib/follow_me/moving_person_detector_node
+follow_me/CMakeFiles/moving_person_detector_node.dir/build: /home/sarayev/catkin_ws/devel/lib/follow_me/moving_person_detector_node
 
 .PHONY : follow_me/CMakeFiles/moving_person_detector_node.dir/build
 
@@ -128,10 +128,10 @@ follow_me/CMakeFiles/moving_person_detector_node.dir/requires: follow_me/CMakeFi
 .PHONY : follow_me/CMakeFiles/moving_person_detector_node.dir/requires
 
 follow_me/CMakeFiles/moving_person_detector_node.dir/clean:
-	cd /home/vlamd/Git/RoboticsLab1/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/moving_person_detector_node.dir/cmake_clean.cmake
+	cd /home/sarayev/catkin_ws/build/follow_me && $(CMAKE_COMMAND) -P CMakeFiles/moving_person_detector_node.dir/cmake_clean.cmake
 .PHONY : follow_me/CMakeFiles/moving_person_detector_node.dir/clean
 
 follow_me/CMakeFiles/moving_person_detector_node.dir/depend:
-	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/follow_me /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/follow_me /home/vlamd/Git/RoboticsLab1/build/follow_me/CMakeFiles/moving_person_detector_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarayev/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarayev/catkin_ws/src /home/sarayev/catkin_ws/src/follow_me /home/sarayev/catkin_ws/build /home/sarayev/catkin_ws/build/follow_me /home/sarayev/catkin_ws/build/follow_me/CMakeFiles/moving_person_detector_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : follow_me/CMakeFiles/moving_person_detector_node.dir/depend
 

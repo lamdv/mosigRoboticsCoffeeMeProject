@@ -1,8 +1,8 @@
-# Install script for directory: /home/vlamd/Git/RoboticsLab1/src/teleoperation
+# Install script for directory: /home/sarayev/catkin_ws/src/teleoperation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/vlamd/Git/RoboticsLab1/install")
+  set(CMAKE_INSTALL_PREFIX "/home/sarayev/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,41 +38,41 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleoperation/cmake" TYPE FILE FILES "/home/vlamd/Git/RoboticsLab1/build/teleoperation/catkin_generated/installspace/teleoperation-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleoperation/cmake" TYPE FILE FILES "/home/sarayev/catkin_ws/build/teleoperation/catkin_generated/installspace/teleoperation-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/vlamd/Git/RoboticsLab1/devel/share/roseus/ros/teleoperation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/sarayev/catkin_ws/devel/share/roseus/ros/teleoperation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/vlamd/Git/RoboticsLab1/devel/lib/python2.7/dist-packages/teleoperation")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/sarayev/catkin_ws/devel/lib/python2.7/dist-packages/teleoperation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/vlamd/Git/RoboticsLab1/devel/lib/python2.7/dist-packages/teleoperation")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/sarayev/catkin_ws/devel/lib/python2.7/dist-packages/teleoperation")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/vlamd/Git/RoboticsLab1/build/teleoperation/catkin_generated/installspace/teleoperation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sarayev/catkin_ws/build/teleoperation/catkin_generated/installspace/teleoperation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleoperation/cmake" TYPE FILE FILES "/home/vlamd/Git/RoboticsLab1/build/teleoperation/catkin_generated/installspace/teleoperation-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleoperation/cmake" TYPE FILE FILES "/home/sarayev/catkin_ws/build/teleoperation/catkin_generated/installspace/teleoperation-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleoperation/cmake" TYPE FILE FILES
-    "/home/vlamd/Git/RoboticsLab1/build/teleoperation/catkin_generated/installspace/teleoperationConfig.cmake"
-    "/home/vlamd/Git/RoboticsLab1/build/teleoperation/catkin_generated/installspace/teleoperationConfig-version.cmake"
+    "/home/sarayev/catkin_ws/build/teleoperation/catkin_generated/installspace/teleoperationConfig.cmake"
+    "/home/sarayev/catkin_ws/build/teleoperation/catkin_generated/installspace/teleoperationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleoperation" TYPE FILE FILES "/home/vlamd/Git/RoboticsLab1/src/teleoperation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teleoperation" TYPE FILE FILES "/home/sarayev/catkin_ws/src/teleoperation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/teleoperation" TYPE DIRECTORY FILES "/home/vlamd/Git/RoboticsLab1/src/teleoperation/scripts/" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/teleoperation" TYPE DIRECTORY FILES "/home/sarayev/catkin_ws/src/teleoperation/scripts/" USE_SOURCE_PERMISSIONS)
 endif()
 

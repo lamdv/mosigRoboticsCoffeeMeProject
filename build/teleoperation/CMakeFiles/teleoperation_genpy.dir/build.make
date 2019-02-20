@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vlamd/Git/RoboticsLab1/src
+CMAKE_SOURCE_DIR = /home/sarayev/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vlamd/Git/RoboticsLab1/build
+CMAKE_BINARY_DIR = /home/sarayev/catkin_ws/build
 
 # Utility rule file for teleoperation_genpy.
 
@@ -63,10 +63,10 @@ teleoperation/CMakeFiles/teleoperation_genpy.dir/build: teleoperation_genpy
 .PHONY : teleoperation/CMakeFiles/teleoperation_genpy.dir/build
 
 teleoperation/CMakeFiles/teleoperation_genpy.dir/clean:
-	cd /home/vlamd/Git/RoboticsLab1/build/teleoperation && $(CMAKE_COMMAND) -P CMakeFiles/teleoperation_genpy.dir/cmake_clean.cmake
+	cd /home/sarayev/catkin_ws/build/teleoperation && $(CMAKE_COMMAND) -P CMakeFiles/teleoperation_genpy.dir/cmake_clean.cmake
 .PHONY : teleoperation/CMakeFiles/teleoperation_genpy.dir/clean
 
 teleoperation/CMakeFiles/teleoperation_genpy.dir/depend:
-	cd /home/vlamd/Git/RoboticsLab1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vlamd/Git/RoboticsLab1/src /home/vlamd/Git/RoboticsLab1/src/teleoperation /home/vlamd/Git/RoboticsLab1/build /home/vlamd/Git/RoboticsLab1/build/teleoperation /home/vlamd/Git/RoboticsLab1/build/teleoperation/CMakeFiles/teleoperation_genpy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sarayev/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sarayev/catkin_ws/src /home/sarayev/catkin_ws/src/teleoperation /home/sarayev/catkin_ws/build /home/sarayev/catkin_ws/build/teleoperation /home/sarayev/catkin_ws/build/teleoperation/CMakeFiles/teleoperation_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : teleoperation/CMakeFiles/teleoperation_genpy.dir/depend
 

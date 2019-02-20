@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "follow_me")
 set(follow_me_VERSION "0.0.0")
-set(follow_me_MAINTAINER "olivier <olivier@todo.todo>")
+set(follow_me_MAINTAINER "galibsarayev <galibsarayev@gmail.com>")
 set(follow_me_PACKAGE_FORMAT "1")
 set(follow_me_BUILD_DEPENDS )
 set(follow_me_BUILD_EXPORT_DEPENDS )

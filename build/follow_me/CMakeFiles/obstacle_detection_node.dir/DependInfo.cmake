@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vlamd/Git/RoboticsLab1/src/follow_me/src/obstacle_detection_node.cpp" "/home/vlamd/Git/RoboticsLab1/build/follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o"
+  "/home/sarayev/catkin_ws/src/follow_me/src/obstacle_detection_node.cpp" "/home/sarayev/catkin_ws/build/follow_me/CMakeFiles/obstacle_detection_node.dir/src/obstacle_detection_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

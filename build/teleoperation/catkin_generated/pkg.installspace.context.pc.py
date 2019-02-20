@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime;std_msgs;nav_msgs;geometry_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "teleoperation"
-PROJECT_SPACE_DIR = "/home/vlamd/Git/RoboticsLab1/install"
+PROJECT_SPACE_DIR = "/home/sarayev/catkin_ws/install"
 PROJECT_VERSION = "1.1.0"

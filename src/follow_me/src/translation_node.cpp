@@ -128,7 +128,7 @@ void update() {
         if ( cond_translation ) {
             //TO COMPLETE
             //Implementation of a PID controller for translation_to_do;
-            // rotation_speed = kp*error + ki * error + kp * error_derivation;
+            // translation_speed = kp*error + ki * error + kp * error_derivation;
 
             float error_derivation;//To complete
             error_derivation = abs(error - error_previous);
@@ -235,5 +235,3 @@ int main(int argc, char **argv){
 
     return 0;
 }
-
-
