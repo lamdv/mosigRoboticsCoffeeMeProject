@@ -1,2 +1,0 @@
-beginner_tutorials:follow_me:teleoperation
--DCATKIN_DEVEL_PREFIX=/home/sarayev/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sarayev/catkin_ws/install -G Unix Makefiles

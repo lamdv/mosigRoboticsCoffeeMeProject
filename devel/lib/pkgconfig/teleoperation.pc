@@ -1,8 +1,8 @@
-prefix=/home/sarayev/catkin_ws/devel
+prefix=/mnt/c/Users/Vu Lam/Documents/RoboticsLab1/devel
 
 Name: teleoperation
 Description: Description of teleoperation
 Version: 1.1.0
 Cflags: 
-Libs: -L/home/sarayev/catkin_ws/devel/lib 
+Libs: -L/mnt/c/Users/Vu Lam/Documents/RoboticsLab1/devel/lib 
 Requires: message_runtime std_msgs nav_msgs geometry_msgs

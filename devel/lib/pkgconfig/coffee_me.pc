@@ -1,7 +1,7 @@
 prefix=/mnt/c/Users/Vu Lam/Documents/RoboticsLab1/devel
 
-Name: beginner_tutorials
-Description: Description of beginner_tutorials
+Name: coffee_me
+Description: Description of coffee_me
 Version: 0.0.0
 Cflags: 
 Libs: -L/mnt/c/Users/Vu Lam/Documents/RoboticsLab1/devel/lib 
